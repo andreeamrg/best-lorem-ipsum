@@ -1,0 +1,52 @@
+{ 
+    "loremIpsum": [
+  {
+    "name": "Cupcake Ipsum",
+    "link": "http://www.cupcakeipsum.com/",
+    "image": "Dan Jukes",
+    "description": [
+      "How about using auto-generated text that will actually make people love your project even more? With Cupcake Ipsum, you can create a sweet, sugar-coated paragraph of text"
+    ]
+  },
+  {
+    "name": "Pirate Ipsum",
+    "link": "https://pirateipsum.me/",
+    "image": "Dan Jukes",
+    "description": [
+      "Arrr me hearties! Make traditional Latin walk the plank and opt for pirate lorem ipsum for your next high seas design adventure."
+    ]
+  },
+  {
+    "name": "Cat Ipsum",
+    "link": "http://www.catipsum.com/",
+    "image": "Dan Jukes",
+    "description": [
+      "The purrr-fect lorem ipsum generator for clients who love their cats and cat memes. It’ll have your cat-loving clients purring their appreciation for your mock-ups in no time."
+    ]
+  },
+{
+    "name": "Bacon Ipsum",
+    "link": "https://baconipsum.com/",
+    "image": "Dan Jukes",
+    "description": [
+      "If you prefer your lorem ipsum a little meatier, then Bacon Ipsum has you covered, providing succulent and tasty dummy text"
+    ]
+  },
+  {
+    "name": "Veggie Ipsum",
+    "link": "https://veggieipsum.com/",
+    "image": "Dan Jukes",
+    "description": [
+      "Do you prefer your dummy text meat-free? Then Veggie Ipsum is for you, with a fresh supply of lentils and vegetables"
+    ]
+  },
+  {
+    "name": "Veggie Ipsum",
+    "link": "https://veggieipsum.com/",
+    "image": "Dan Jukes",
+    "description": [
+      "Do you prefer your dummy text meat-free? Then Veggie Ipsum is for you, with a fresh supply of lentils and vegetables"
+    ]
+  }
+]
+}

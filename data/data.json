@@ -1,0 +1,47 @@
+{ 
+    "loremIpsum": [
+  {
+    "name": "Cupcake Ipsum",
+    "link": "http://www.cupcakeipsum.com/",
+    "image": "./dist/images/cupcake.png",
+    "description": 
+      "How about using auto-generated text that will actually make people love your project even more? With Cupcake Ipsum, you can create a sweet, sugar-coated paragraph of text."
+  },
+  {
+    "name": "Pirate Ipsum",
+    "link": "https://pirateipsum.me/",
+    "image": "./dist/images/boat.png",
+    "description": 
+      "Arrr me hearties! Make traditional Latin walk the plank and opt for pirate lorem ipsum for your next high seas design adventure."
+  },
+  {
+    "name": "Cat Ipsum",
+    "link": "http://www.catipsum.com/",
+    "image": "./dist/images/cat.png",
+    "description": 
+      "The purrr-fect lorem ipsum generator for clients who love their cats and cat memes. It’ll have your cat-loving clients purring their appreciation for your mock-ups in no time."
+  },
+{
+    "name": "Bacon Ipsum",
+    "link": "https://baconipsum.com/",
+    "image": "./dist/images/bacon.png",
+    "description":
+      "If you prefer your lorem ipsum a little meatier, then Bacon Ipsum has you covered, providing succulent and tasty dummy text."
+  },
+  {
+    "name": "Veggie Ipsum",
+    "link": "https://veggieipsum.com/",
+    "image": "./dist/images/vegetable.jpg",
+    "description": 
+      "Do you prefer your dummy text meat-free? Then Veggie Ipsum is for you, with a fresh supply of lentils and vegetables."
+  },
+  {
+    "name": "Fillerama Ipsum",
+    "link": "http://fillerama.io/",
+    "image": "./dist/images/fill.jpg",
+    "description": [
+      "This Ipsum is very useful where you want to put dummy text with various fields like Arrested Development, Star Wars, Doctor Who, etc.."
+    ]
+  }
+]
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    {{ partial "head.html" . }}
+  <body>
+      <header>{{ partial "header.html" . }}</header>
+    <!-- Here is our main header that is used across all the pages of our website -->
+    <main>
+        <div class="container contact fullpage__content fullpage__section">
+            <div class="row">
+                <div class="col contact__side-content text-center contact__top-content" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>Do you have more content that could be added to <b>our top</b>?</h2>
+                    <p class="lead"> Fill out this form and we'll get back to you soon. </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 order-md-1 contact__bottom-content">
+                <h4 class="mb-3" data-aos="fade-up" data-aos-duration="1000">Your Details</h4>
+                <form class="needs-validation" novalidate="" id="form">
+                    <div class="mb-3" data-aos="fade-up" data-aos-duration="1000">
+                        <label for="fullName">Your Name *</label>
+                        <input type="text" class="contact__fields" id="fullname" placeholder="Your Full Name" value="" required="">
+                        <div id="invalid" class="error">
+                        </div>
+                    </div>
+                    <div class="mb-3" data-aos="fade-up" data-aos-duration="1000">
+                    <label for="email">Email *</label>
+                    <input type="email" class="contact__fields" id="email" placeholder="you@example.com" required="">
+                    <div id="invalid-email" class="error">
+                    </div>
+                    <div class="mb-3" data-aos="fade-up" data-aos-duration="1000">
+                    <label for="subject">Subject </label>
+                    <input type="subject" class="contact__fields" id="subject" placeholder="Subject" required="">
+                    <div id="invalid-email" class="error">
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group" data-aos="fade-up" data-aos-duration="1000"> 
+                                <label for="form_message">Your Message*</label> 
+                                <textarea id="form_message" name="message" class="contact__fields contact__message" placeholder="Please write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>
+                                <div id="invalid-message" class="error"></div>
+                        </div>
+                        <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000"> <input type="submit" class="btn btn-send pt-2 contact__button" value="Send Message"> </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    {{ partial "footer.html" . }}
+  </body>
+</html>
