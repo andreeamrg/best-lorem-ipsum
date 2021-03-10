@@ -14,11 +14,11 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <a href="#top-lorem-ipsum" role="button" class="btn btn-lg cta-button" >Find out more</a>
+                    <a href="#top-lorem-ipsum" role="button" class="btn btn-lg cta-button" data-aos="fade-up" data-aos-duration="1000">Find out more</a>
                 </div>    
             </div>
         </div>
-        <div class="container full-width" id="top-lorem-ipsum">
+        <div class="container full-width">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1" data-aos="fade-up" data-aos-duration="1000">
                     <div class="homepage-content homepage-content__text">
@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" id="top-lorem-ipsum">
             <div class="row">
                 <!--pulls data from json file -->
                 {{range .Site.Data.data.loremIpsum }}

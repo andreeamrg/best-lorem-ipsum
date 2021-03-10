@@ -13,6 +13,7 @@ let errorElementComment = document.getElementById("invalid-message");
 let contactForm = document.getElementById("form");
 
 // Event listener
+if(document.getElementById('contact-page')){
 contactForm.addEventListener("submit", function (e) {
   let messageName = [];
   let messageEmail = [];
@@ -41,12 +42,13 @@ contactForm.addEventListener("submit", function (e) {
   
    // if the values length is filled and it's greater than 2 then redirect to this page
     if (
-    (fullname.value.length > 10,
-    email.value.length > 15,
-    comment.value.length > 20)
+    (fullname.value.length > 5,
+    email.value.length > 5,
+    comment.value.length > 5)
   ) {
     e.preventDefault();
     window.location.assign("/");
   }
 
 });
+}
